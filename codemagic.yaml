@@ -5,7 +5,7 @@ workflows:
 
     triggering:
       events:
-        - push
+        - push 
         - pull_request
         - tag
     instance_type: linux_x2
